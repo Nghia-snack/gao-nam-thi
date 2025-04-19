@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đại lý Gạo Năm Thị - Khánh Hòa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: #fdfcf6;
+        color: #333;
+      }
+      header {
+        background: url("bg-gao.jpg") center/cover no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      }
+      section {
+        padding: 60px 20px;
+        max-width: 1100px;
+        margin: auto;
+      }
+      .intro,
+      .why,
+      .contact,
+      .footer {
+        text-align: center;
+      }
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .product {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        transition: transform 0.3s;
+      }
+      .product:hover {
+        transform: translateY(-5px);
+      }
+      .product img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .product h3 {
+        margin: 10px 0;
+      }
+      .testimonial {
+        margin: 20px 0;
+        font-style: italic;
+      }
+      .contact p,
+      .footer p {
+        margin: 10px 0;
+      }
+      footer {
+        background: #222;
+        color: white;
+        padding: 20px;
+      }
+      .call-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #00cc66;
+        color: white;
+        padding: 12px 16px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Đại lý Gạo Năm Thị - Khánh Hòa</h1>
+    </header>
+
+    <section class="intro">
+      <h2>Về chúng tôi</h2>
+      <p>
+        Chúng tôi tự hào là nguồn cung cấp các loại gạo sạch, chất lượng cao,
+        thơm ngon tại Khánh Hòa.
+      </p>
+    </section>
+
+    <section class="products">
+      <div class="product">
+        <img src="st25.jpg" alt="Gạo ST25" />
+        <h3>Gạo ST25</h3>
+        <p>Gạo thơm, dẻo và sạch.</p>
+      </div>
+      <div class="product">
+        <img src="tainguyen.jpg" alt="Gạo Tài Nguyên" />
+        <h3>Gạo Tài Nguyên</h3>
+        <p>Hạt dài, mềm cơm, phù hợp bữa ăn gia đình.</p>
+      </div>
+      <div class="product">
+        <img src="laimien.jpg" alt="Gạo Lài Miên" />
+        <h3>Gạo Lài Miên</h3>
+        <p>Thơm tự nhiên, dẻo nhẹ, ít tốn nước khi nấu.</p>
+      </div>
+      <div class="product">
+        <img src="huonglai.jpg" alt="Gạo Hương Lài" />
+        <h3>Gạo Hương Lài</h3>
+        <p>Thơm hương lài, cơm trắng đẹp và mềm.</p>
+      </div>
+      <div class="product">
+        <img src="gao-lut.jpg" alt="Gạo Lứt Đỏ" />
+        <h3>Gạo Lứt Đỏ</h3>
+        <p>Dành cho người ăn kiêng, tốt cho sức khỏe.</p>
+      </div>
+    </section>
+
+    <section class="why">
+      <h2>Tại sao chọn chúng tôi?</h2>
+      <p>
+        ✅ Gạo chất lượng, rõ nguồn gốc<br />✅ Dịch vụ giao hàng tận nơi<br />✅
+        Giá cả cạnh tranh<br />✅ Tư vấn tận tình
+      </p>
+    </section>
+
+    <section class="testimonial">
+      <h2>Khách hàng nói gì?</h2>
+      <p>
+        "Gạo ở đây nấu lên rất thơm, mềm và ngon. Tôi rất hài lòng!" - Chị Hạnh
+        (Nha Trang)
+      </p>
+      <p>
+        "Phục vụ nhanh, giá hợp lý, tôi sẽ quay lại thường xuyên." - Anh Nam
+        (Cam Lâm)
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Liên hệ</h2>
+      <p>📍 406 Trường Chinh, Cam Đức, Cam Lâm, Khánh Hòa</p>
+      <p>📞 0943 980 591</p>
+      <p>📧 namthigaokhanhhoa@gmail.com</p>
+    </section>
+
+    <a href="tel:0943980591" class="call-button">📞 Gọi ngay</a>
+
+    <footer>
+      <p>
+        © Đại lý Gạo Năm Thị. Đồng hành với bữa cơm ấm áp của mọi gia đình ❤️
+      </p>
+    </footer>
+  </body>
+</html>
